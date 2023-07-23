@@ -28,7 +28,7 @@ const services: Service[] = [
 
 export default function Services() {
   return (
-    <section className="services px-4 relative py-10 my-10">
+    <section className="services px-4 relative py-10 my-8">
       <div className="absolute top-0 left-0 w-full h-2/3 bg-zinc-100 opacity-60 -z-50"></div>
       <div className="max-w-screen-xl mx-auto z-50">
         <p className='font-medium lg:text-[17px] text-green-600 text-center'>Services</p>
