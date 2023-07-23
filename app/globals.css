@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero {
+  background-image: linear-gradient(45deg, rgba(0, 30, 61, 0.87), rgba(0, 30, 61, 0.637)), url('https://ik.imagekit.io/0s9lwb2yr/Cyber%20AI/shot-from-back-dangerous-hacker-making-dangerous-virus-identity-theft_c_pjGp_Gg.jpg?updatedAt=1690110786881');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
