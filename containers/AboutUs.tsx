@@ -12,7 +12,7 @@ export default function AboutUs() {
         </div>
         <div className='w-full lg:w-[55%]'>
           <p className='font-medium lg:text-[17px] text-green-600'>About Us</p>
-          <h2 className='font-bold text-3xl'>Creating a cyber secure future</h2>
+          <h2 className='font-bold text-2xl lg:text-3xl'>Creating a cyber secure future</h2>
           <p className='mt-3 mb-2 max-w-xl text-neutral-700'>At CyberAI, we're on a mission to protect your digital world. With cutting-edge AI-powered cybersecurity solutions, we defend against threats and ensure your data stays safe. Partner with us for a secure future.</p>
           <ul className='flex flex-col gap-2 mt-4'>
             <li className='flex gap-2 itmes-center'>
