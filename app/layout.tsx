@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { DM_Sans } from 'next/font/google'
 
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 const defaultFont = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'] })
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={defaultFont.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
